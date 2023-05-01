@@ -1,0 +1,40 @@
+nav div .navbar-nav a {
+    color: gray;
+}
+
+nav div .navbar-nav a:hover {
+    color: darkcyan;
+}
+
+nav div .navbar-nav .active {
+    color: rgb(241, 238, 238) !important;
+}
+
+
+nav div .navbar-nav .text-success {
+    color: rgb(33, 150, 17) !important;
+}
+
+
+.nav__logo--invert {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.color_button--tickets{
+    background-color: rgb(33, 235, 94);
+}
+
+
+
+/* Banner */
+
+.banner {
+    height: 75vh;
+}
+
+.banner>img {
+    height: 100%;
+    object-fit: cover;
+}
+
